@@ -32,14 +32,14 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/yolo-human-tracker.git
-   cd yolo-human-tracker
+   git clone https://github.com/Zux1U/crowd_detection.git
+   cd crowd_detection
    ```
 2. Cоздайте виртуальное окружение:
    ```bash
-   python -m venv venv
-   source venv/bin/activate   # Linux / macOS
-   venv\Scripts\activate      # Windows
+   python -m venv .venv
+   .venv\Scripts\activate #Для Windows
+   source .venv/bin/activate # Для Mac/Linux
    ```
 3.Установите зависимости:
    ```bash
