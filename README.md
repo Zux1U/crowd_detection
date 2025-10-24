@@ -36,36 +36,38 @@ project/
    ```bash
    git clone https://github.com/yourusername/yolo-human-tracker.git
    cd yolo-human-tracker
+   ```
 2. Cоздайте виртуальное окружение:
-
-python -m venv venv
-source venv/bin/activate   # Linux / macOS
-venv\Scripts\activate      # Windows
-
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Linux / macOS
+   venv\Scripts\activate      # Windows
+   ```
 3.Установите зависимости:
-
-pip install -r requirements.txt
-
+   ```bash
+   pip install -r requirements.txt
+   ```
 или вручную:
-
+   ```bash
 pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision
 pip install ultralytics opencv-python numpy lapx
+   ```
 
 ## ▶️ Запуск
 🔹 Вариант 1 — запуск без аргументов
-
-python main.py
-
+   ```
+   python main.py
+   ```
 🔹 Вариант 2 — указать свой путь
 
 Вы можете явно задать входной и выходной путь:
-
-python main.py --source "video.mp4" --save "result.mp4"
-
+   ```
+   python main.py --source "video.mp4" --save "result.mp4"
+   ```
 Пример:
-
-python main.py --source crowd.mp4 --save tracked_crowd.mp4
-
+   ```
+   python main.py --source crowd.mp4 --save tracked_crowd.mp4
+   ```
 🧰 Аргументы командной строки
 Аргумент	Описание	По умолчанию
 --source	Путь к исходному видео или RTSP-потоку	встроенный пример
