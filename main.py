@@ -18,7 +18,7 @@ def _project_path(*parts: str) -> str:
 
 
 # Дефолтные пути (положи своё видео сюда: assets/input.mp4)
-DEFAULT_SOURCE = _project_path("input_video", "input.mp4")
+DEFAULT_SOURCE = _project_path("input_video", "crowd.mp4")
 DEFAULT_SAVE = _project_path("outputs_video", "output.mp4")
 
 
