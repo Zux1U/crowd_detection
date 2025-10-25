@@ -105,7 +105,7 @@ def run_singlecam_botsort_styled(
     """
     # Параметры по умолчанию
     model_name = "yolov8l.pt"
-    conf = 0.45
+    conf = 0.3
     imgsz = 896
     iou = 0.5
     tracker_yaml = BOTSORT_YAML
